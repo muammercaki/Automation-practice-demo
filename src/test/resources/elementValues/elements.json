@@ -1,0 +1,228 @@
+[
+  {
+    "key": "signIn",
+    "value": "a[class='login']",
+    "type": "css"
+  },
+  {
+    "key": "emailCheck",
+    "value": "[name='email_create']",
+    "type": "css"
+  },
+  {
+    "key": "generetaEmail",
+    "value": "[class] [rel='nofollow']:nth-of-type(1) .waves-raised",
+    "type": "css"
+  },
+  {
+    "key": "emailCopy",
+    "value": "span[id='email_ch_text']",
+    "type": "css"
+  },
+  {
+    "key": "submitEmail",
+    "value": " button[id='SubmitCreate']",
+    "type": "css"
+  },
+  {
+    "key": "copy",
+    "value": "span[id='email_ch_text']",
+    "type": "css"
+  },
+  {
+    "key": "copyEmaill",
+    "value": "ocaprimourad38t@mm18269.com",
+    "type": "css"
+  },
+  {
+    "key": "Gender",
+    "value": "input[id='id_gender2']",
+    "type": "css"
+  },
+  {
+    "key": "firstName",
+    "value": "input[id='customer_firstname']",
+    "type": "css"
+  },
+  {
+    "key": "lasttName",
+    "value": "input[id='customer_lastname']",
+    "type": "css"
+  },
+  {
+    "key": "password",
+    "value": "input[id='passwd']",
+    "type": "css"
+  },
+  {
+    "key": "days",
+    "value": "days",
+    "type": "id"
+  },
+  {
+    "key": "months",
+    "value": "select[id='months']",
+    "type": "css"
+  },
+  {
+    "key": "years",
+    "value": "select[id='years']",
+    "type": "css"
+  },
+  {
+    "key": "Newsletter",
+    "value": "div[id='uniform-newsletter']",
+    "type": "css"
+  },
+  {
+    "key": "address",
+    "value": "input[id='address1']",
+    "type": "css"
+  },
+  {
+    "key": "state",
+    "value": "select[id='id_state']",
+    "type": "css"
+  },
+  {
+    "key": "postalCode",
+    "value": "input[id='postcode']",
+    "type": "css"
+  },
+  {
+    "key": "country",
+    "value": "select[id='id_country']",
+    "type": "css"
+  },
+  {
+    "key": "phoneMobile",
+    "value": "input[id='phone_mobile']",
+    "type": "css"
+  },
+  {
+    "key": "submitAccount",
+    "value": "  button[id='submitAccount']",
+    "type": "css"
+  },
+  {
+    "key": "city",
+    "value": "input[id='city']",
+    "type": "css"
+  },
+  {
+    "key": "loginEmail",
+    "value": "input[id='email']",
+    "type": "css"
+  },
+  {
+    "key": "loginPassword",
+    "value": "input[id='passwd']",
+    "type": "css"
+  },
+  {
+    "key": "SubmitLogin",
+    "value": "button[id='SubmitLogin']",
+    "type": "css"
+  },
+  {
+    "key": "autocationFailed",
+    "value": "div#center_column > .alert.alert-danger",
+    "type": "css"
+  },
+  {
+    "key": "headerLogo",
+    "value": "a[class='home']",
+    "type": "css"
+  },
+  {
+    "key": "product",
+    "value": "ul[id='homefeatured'] a[data-id-product='2']",
+    "type": "css"
+  },
+  {
+    "key": "checkOut",
+    "value": "a[class='btn btn-default button button-medium']",
+    "type": "css"
+  },
+  {
+    "key": "totalProduct",
+    "value": "td[id='total_product']",
+    "type": "css"
+  },
+  {
+    "key": "adressName",
+    "value": "ul[class='address first_item item box'] span[class='address_name']",
+    "type": "css"
+  },
+  {
+    "key": "Adress1",
+    "value": "ul[class='address first_item item box'] span[class='address_address1']",
+    "type": "css"
+  },
+  {
+    "key": "totalShipping",
+    "value": "td[id='total_shipping']",
+    "type": "css"
+  },
+  {
+    "key": "totalPrice",
+    "value": "span[id='total_price']",
+    "type": "css"
+  },
+  {
+    "key": "summaryProccedtoCheckout",
+    "value": "a[class='button btn btn-default standard-checkout button-medium']",
+    "type": "css"
+  },
+  {
+    "key": "adressProccedtoCheckout",
+    "value": "button[class='button btn btn-default button-medium']",
+    "type": "css"
+  },
+  {
+    "key": "shippingProccedtoCheckout",
+    "value": "button[class='button btn btn-default standard-checkout button-medium']",
+    "type": "css"
+  },
+  {
+    "key": "shippingConfimationChekBox",
+    "value": "input[id='cgv']",
+    "type": "css"
+  },
+  {
+    "key": "PaybyBankWire",
+    "value": "a[class='bankwire']",
+    "type": "css"
+  },
+  {
+    "key": "confirmOrder",
+    "value": "button[class='button btn btn-default button-medium']",
+    "type": "css"
+  },
+  {
+    "key": "EmailDegeri",
+    "value": "span[id='email_ch_text']",
+    "type": "css"
+  },
+  {
+    "key": "company",
+    "value": "input[id='company']",
+    "type": "css"
+  },
+  {
+    "key": "other",
+    "value": "other",
+    "type": "id"
+  },
+  {
+    "key": "phone_mobile",
+    "value": "phone_mobile",
+    "type": "id"
+  },
+  {
+    "key": "paymentSucces",
+    "value": " #center_column > div > p > strong",
+    "type": "css"
+  }
+]
+

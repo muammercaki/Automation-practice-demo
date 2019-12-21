@@ -1,0 +1,66 @@
+Created by mcaki on 15/12/2019
+
+This is a concept file with following syntax for each concept.
+//case 3
+# True Email and Password
+*Click to element "signIn"
+*Write value "ocaprimourad3t@mm182692.com" to element "loginEmail"
+*Write value "123456" to element "loginPassword"
+*Click to element "SubmitLogin"
+*Click to element "headerLogo"
+*Wait "3" seconds
+*Scroll Page Down
+*Scroll Page Down
+*Click to element "product"
+*Wait "2" seconds
+*Click to element "checkOut"
+
+//Case 4
+#Proceed to Checkout
+*True Email and Password
+*Wait "1" seconds
+*Click to element "summaryProccedtoCheckout"
+*Wait "1" seconds
+*Click to element "adressProccedtoCheckout"
+*Wait "3" seconds
+*Click to element "shippingConfimationChekBox"
+*Wait "3" seconds
+*Click to element "shippingProccedtoCheckout"
+*Wait "2" seconds
+*Print element text by css "totalPrice", totalShipping "totalShipping", totalProduct "totalProduct"
+*Click to element "PaybyBankWire"
+*Wait "2" seconds
+*Click to element "confirmOrder"
+*Wait for element to load with key "paymentSucces"
+
+# True Email and False Password
+*Click to element "signIn"
+*Write value "ocaprimourad3t@mm182692.com" to element "loginEmail"
+*Write value "1234562" to element "loginPassword"
+*Click to element "SubmitLogin"
+*"autocationFailed" Kullanıcı Adı veya Parola Yanlis
+*Wait "2" seconds
+
+# Email False and True Password
+*Click to element "signIn"
+*Write value "ocaprimourad3t@mm2.com" to element "loginEmail"
+*Write value "123456" to element "loginPassword"
+*Click to element "SubmitLogin"
+*"autocationFailed" Kullanıcı Adı veya Parola Yanlis
+*Wait "2" seconds
+
+# Email False and False Password
+*Click to element "signIn"
+*Write value "ocaprimourad3t@mm2.com" to element "loginEmail"
+*Write value "1234256" to element "loginPassword"
+*Click to element "SubmitLogin"
+*"autocationFailed" Kullanıcı Adı veya Parola Yanlis
+*Wait "2" seconds
+
+# Null Email and Password
+*Click to element "signIn"
+*Write value "" to element "loginEmail"
+*Write value "" to element "loginPassword"
+*Click to element "SubmitLogin"
+*"autocationFailed" Kullanıcı Adı veya Parola Yanlis
+*Wait "2" seconds
